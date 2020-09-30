@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project Board</title>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header id="main-header">
+      <img src="./project-planner-logo.svg" class='project-logo' alt="">
+      <img src="./XYLO.svg" class='xylo' alt="">
+    </header>
+
+    <div class="flex-wrapper">
+      <div class="half1">
+        <header>
+          <h1 class='add-project-head'>Add Project</h1>
+        </header>
+
+          <div class="form">
+              <label for="title" class='title-label'>Title</label>
+              <input type="text" class='title'>
+        
+              <label for="description" class='description-label'>Description</label>
+              <input type="text" class='description'>
+  
+              <label for="moreInfo" class='moreinfo-label'>More Information (optional)</label>
+              <input type="text" class='moreInfoInput'>
+
+              <p class='warning'> ⚠ fill all the fields</p>
+  
+              <button class='submit' >Add Project</button>
+          </div>
+      </div>
+  
+     <div class="second-div">
+        <section id="active-projects">
+          <header>
+            <h2>Active Projects</h2>
+          </header>
+          <ul>
+
+          </ul>
+        </section>
+
+        <section id="finished-projects">
+          <header>
+            <h2>Finished Projects</h2>
+          </header>
+          <ul>
+        
+          </ul>
+        </section>
+     </div>
+    </div>
+  </body>
+</html>
